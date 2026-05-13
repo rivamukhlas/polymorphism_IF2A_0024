@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Kasir kasir = new Kasir();
-        Makanan makanan = new Makanan();
-        Elektronik elektronik = new Elektronik();
-        Produk produk = new Produk();
+        Produk p1 = new Elektronik("Samsung", 100000, 5, 2);
+        Produk p2 = new Makanan("Bakso", 1000, 100, 3);
+        Kasir kasir = new Kasir("Maman")
     }
 }
    
