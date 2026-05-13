@@ -9,5 +9,13 @@ public abstract class Produk {
         this.harga = harga;
         this.stok = stok;
     }
+
+    public void setStok(int jmlhBeli) {
+        this.stok -= jmlhBeli;
+    }
+
+    public int getStok() {
+        return stok;
+    }
     
 }
