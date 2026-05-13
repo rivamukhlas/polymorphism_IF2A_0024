@@ -9,6 +9,4 @@ public class Kasir {
         System.out.println("===== TOKO GARUDA =====");
         System.out.println("Nama Kasir: " + namaKasir);
     }
- }
-
 
